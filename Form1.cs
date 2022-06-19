@@ -68,6 +68,7 @@ namespace WinFormsApp1
         private void igual_Click(object sender, EventArgs e)
         {
             valor2 = decimal.Parse(txt_calculo.Text, CultureInfo.InvariantCulture);
+            //Operações
             if(operacao == "soma"){
                 txt_calculo.Text = Convert.ToString(valor1 + valor2);
             }else if(operacao == "sub")
